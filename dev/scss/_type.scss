@@ -1,0 +1,59 @@
+:focus {
+  outline: none;
+}
+
+.text-56px {
+  @include text-42px;
+
+  @include media-breakpoint-up(sm) {
+    @include text-56px;
+  }
+}
+
+.text-35px {
+  @include text-32px;
+
+  @include media-breakpoint-up(sm) {
+    @include text-35px;
+  }
+}
+
+.text-24px {
+  @include text-22px;
+
+  @include media-breakpoint-up(sm) {
+    @include text-24px
+  }
+}
+
+.text-20px {
+  @include text-18px;
+
+  @include media-breakpoint-up(sm) {
+    @include text-20px;
+  }
+}
+.text-15px {
+  @include text-15px;
+}
+.text-12px {
+  @include text-12px;
+}
+.text-11px {
+  @include text-11px;
+}
+.font-weight-medium {
+  font-weight: 500;
+}
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+.font-header,
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $primary;
+}
+.font-montserat {
+  font-family: "Montserrat", sans-serif;
+}
